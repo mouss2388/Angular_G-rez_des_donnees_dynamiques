@@ -8,6 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'GestionDataDynamics';
   isAuth = false;
+  appareilOne = "PS4";
+  appareilTwo = "XBOX";
+  appareilThree = "IPHONE";
 
 
   onStart(){
