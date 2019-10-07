@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'GestionDataDynamics';
+  isAuth = false;
+
+
+  onStart(){
+    this.isAuth = true;
+    console.log("Tout est allumé !");
+  }
+
+  onUnlockBtn(){
+    this.isAuth = true;
+  }
 }
